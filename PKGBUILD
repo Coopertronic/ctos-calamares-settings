@@ -1,7 +1,7 @@
 # Maintainer: Matthew Phillip Cooper <matthew@coopertronic.co.uk>
 pkgname=ctos-calamares-settings
 _destname1="/etc"
-pkgver=1
+pkgver=1.r1.001
 pkgrel=1
 pkgdesc="Configation files that setup Calamares for Coopertronic OS"
 arch=('any')
