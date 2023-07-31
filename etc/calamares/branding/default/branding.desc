@@ -1,0 +1,44 @@
+---First Build
+componentName:  default
+
+welcomeStyleCalamares:   false
+
+# Should the welcome image (productWelcome, below) be scaled
+# up beyond its natural size?
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+windowSize: 920px,630px
+windowPlacement: center
+
+sidebar: widget
+navigation: widget
+
+strings:
+    productName:         "Coopertronic OS"
+    shortProductName:    Generic
+    version:             v0.009 "First Build"
+    shortVersion:        v0.009
+    versionedName:       CTOS v0.009 "First Build"
+    shortVersionedName:  CTOS v0.009
+    bootloaderEntryName: CTOS
+    productUrl:          https://coopertronic.co.uk
+    supportUrl:          https://gitlab.com/dtos/dtos/
+    knownIssuesUrl:      https://github.com/Coopertronic/Coopertronic-OS/issues
+    releaseNotesUrl:     https://github.com/Coopertronic/Coopertronic-OS/releases/
+
+images:
+    productBanner:       "dragon-circle.black.green.coopertronic.3D-banner.2023.png"
+    productIcon:         "dragon-circle.black.coopertronic.3D-icon.2021.png"
+    productLogo:         "dragon-circle.black.coopertronic.3D-icon.2021.png"
+    # productWallpaper:    "wallpaper.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+slideshowAPI:            1
+
+style:
+   SidebarBackground:        "#192428"
+   SidebarText:              "#7a95a0"
+   SidebarTextCurrent:       "#d3eaf4"
+   SidebarBackgroundCurrent: "#748895"
