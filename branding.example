@@ -123,15 +123,16 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Generic
-    version:             v0.032 Rolling
-    shortVersion:        v0.032
-    versionedName:       CTOS v0.032 Rolling "Turgid Tuba"
-    shortVersionedName:  CTOS v0.032
-    bootloaderEntryName: CTOS
-    productUrl:          https://coopertronic.co.uk
-    supportUrl:          https://github.com/Coopertronic/Coopertronic-OS/wiki
-    knownIssuesUrl:      https://github.com/Coopertronic/Coopertronic-OS/issues
-    releaseNotesUrl:     https://archive.org/search?query=creator%3A%22Matthew+Phillip+Cooper%22
+    version:             2020.2 LTS
+    shortVersion:        2020.2
+    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
+    shortVersionedName:  FancyGL 2020.2
+    bootloaderEntryName: FancyGL
+    productUrl:          https://calamares.io/
+    supportUrl:          https://github.com/calamares/calamares/wiki
+    knownIssuesUrl:      https://github.com/calamares/calamares/issues
+    releaseNotesUrl:     https://calamares.io/news/
+    donateUrl:           https://kde.org/community/donations/index.php
 
 # These images are loaded from the branding module directory.
 #
@@ -161,9 +162,9 @@ strings:
 #
 # These filenames can also use substitutions from os-release (see above).
 images:
-    productBanner:       "dragon-circle.black.green.coopertronic.3D-banner.2023.png"
-    productIcon:         "dragon-circle.black.coopertronic.3D-icon.2021.png"
-    productLogo:         "dragon-circle.black.coopertronic.3D-icon.2021.png"
+    # productBanner:       "banner.png"
+    productIcon:         "squid.png"
+    productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
