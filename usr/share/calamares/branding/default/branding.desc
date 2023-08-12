@@ -123,10 +123,10 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    Generic
-    version:             v0.032 Rolling
-    shortVersion:        v0.032
-    versionedName:       CTOS v0.032 Rolling "Turgid Tuba"
-    shortVersionedName:  CTOS v0.032
+    version:             v0.033 Testing
+    shortVersion:        v0.033
+    versionedName:       CTOS v0.033 Rolling "Turgid Tuba"
+    shortVersionedName:  CTOS v0.033
     bootloaderEntryName: CTOS
     productUrl:          https://coopertronic.co.uk
     supportUrl:          https://github.com/Coopertronic/Coopertronic-OS/wiki
