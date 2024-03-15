@@ -1,9 +1,10 @@
 # Maintainer: Matthew Phillip Cooper <matthew@coopertronic.co.uk>
 pkgname=ctos-calamares-settings
 _destname1="/usr"
+_destname2="/etc"
 pkgver=1
 pkgrel=1
-pkgdesc="Configation files that setup Calamares for Coopertronic OS"
+pkgdesc="Configation files that setup Calamares for Coopertronic OS."
 arch=('any')
 url="https://github.com/Coopertronic/ctos-calamares-settings.git"
 license=('GPL2')
@@ -22,4 +23,6 @@ pkgver() {
 package() {
 	install -dm755 ${pkgdir}${_destname1}
 	cp -r ${srcdir}/${pkgname}${_destname1}/* ${pkgdir}${_destname1}
+		install -dm755 ${pkgdir}${_destname2}
+	cp -r ${srcdir}/${pkgname}${_destname2}/* ${pkgdir}${_destname2}
 }
