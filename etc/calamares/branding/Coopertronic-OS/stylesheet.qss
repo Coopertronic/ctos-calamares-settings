@@ -37,7 +37,7 @@ Use gammaray
 
 #mainText {
 	font: bold 16px;
-	color: #edecf0;
+	color: #8367d8;
 }
 
 #sidebarMenuApp {
@@ -113,11 +113,11 @@ QScrollBar::add-line:vertical {
 /* ########## QLIST VIEW ########## */
 
 QListView {
-	font: 16px;
+	font: 16px
 }
 
 QListView::item:alternate {
-	color: black;
+	color: whitesmoke;
 }
 
 QListView::item: !alternate:selected:active {
@@ -128,7 +128,7 @@ QListView::item: !alternate:selected:active {
 QListView::item:selected:active {
 	background: #58B2D7;
 	color: white;
-}
+}s
 
 QListView::item:selected: !active {
 	background: #58B2D7;
@@ -358,7 +358,7 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-	background-color: #58B2D7;
+	background-color: #119924;
 }
 
 #debugButton {

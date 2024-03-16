@@ -59,11 +59,12 @@ Presentation {
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-        background: null
 
         Image {
             id: background1
 
+            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
+            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -99,13 +100,16 @@ Presentation {
     }
 
     Slide {
+        // background: null
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-        background: null
 
         Image {
             id: background2
 
+            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
+            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -141,13 +145,16 @@ Presentation {
     }
 
     Slide {
+        // background: null
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-        background: null
 
         Image {
             id: background3
 
+            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
+            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -183,13 +190,16 @@ Presentation {
     }
 
     Slide {
+        // background: null
+
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
-        background: null
 
         Image {
             id: background4
 
+            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
+            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
