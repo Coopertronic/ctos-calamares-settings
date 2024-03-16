@@ -1,0 +1,48 @@
+# Coopertronic-OS custom settings
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+#
+# Product branding information
+#
+---
+componentName:  Coopertronic-OS
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    normal
+
+windowSize: 800px,520px
+
+windowPlacement: top
+
+sidebar: widget
+
+navigation: widget
+
+strings:
+    productName:         @{NAME}
+    shortProductName:    ctos
+    version:             v0.071-2024
+    shortVersion:        v0.071
+    versionedName:       Coopertronic-OS_v0.071
+    shortVersionedName:  ctos_v0.071
+    bootloaderEntryName: Coopertronic-OS_v0.071
+    productUrl:          https://github.com/Coopertronic/Coopertronic-OS
+
+images:
+    productIcon:         "dragon-circle.white.coopertronic.3D-icon.2021.square.png"
+    productLogo:         "dragon-circle.white.green.coopertronic.3D-icon.2021.square.png"
+    productWallpaper:    "wallpaper.png"
+    productWelcome:      "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
+
+slideshow:               "show.qml"
+
+slideshowAPI: 2
