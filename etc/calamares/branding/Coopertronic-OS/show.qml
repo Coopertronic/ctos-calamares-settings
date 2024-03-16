@@ -59,6 +59,7 @@ Presentation {
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
+        background: null
 
         Image {
             id: background1
@@ -74,7 +75,7 @@ Presentation {
                 anchors.verticalCenterOffset: 25
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
-                color: 'green'
+                color: 'red'
                 text: qsTr("<b>Welcome to Coopertronic-OS, The home of Happy Computers<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
@@ -100,54 +101,36 @@ Presentation {
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
+        background: null
 
         Image {
             id: background2
 
-            source: "dragon-circle.coopertronic.black.red.BG.2021.Slide-2.png"
+            source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
-            height: parent.height
             horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
+            verticalAlignment: Image.AlignCenter
             anchors.fill: parent
 
             Text {
                 anchors.centerIn: parent
-                anchors.verticalCenterOffset: 163
+                anchors.verticalCenterOffset: 25
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
-                color: 'white'
+                color: 'red'
                 text: qsTr("<b>Coopertronic-OS uses the KDE desktop<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
             }
 
-        }
-
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background3
-
-            source: "dragon-circle.coopertronic.black.red.BG.2021.Slide-3.png"
-            width: parent.width
-            height: parent.height
-            horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
-            anchors.fill: parent
-
             Text {
                 anchors.centerIn: parent
-                anchors.verticalCenterOffset: 165
+                anchors.verticalCenterOffset: 35
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
-                color: 'white'
-                text: qsTr("<b>A work in progress<br/>")
+                color: 'green'
+                text: qsTr("<p><b>Coopertronic OS uses the KDE Plasma desktop because it is lightweight, highly customisable and easy to use.<b/><p/><p><b>At the moment I am not using any GUI package manager because I can't get Discover to see my side repo and I am still experimenting with builds of Pamac. The CLI pacman should be all that is needed at this point.<b/><p/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -160,23 +143,65 @@ Presentation {
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
+        background: null
 
         Image {
-            id: background4
+            id: background3
 
-            source: "dragon-circle.coopertronic.black.red.BG.2021.Slide-4.png"
+            source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
-            height: parent.height
             horizontalAlignment: Image.AlignCenter
-            verticalAlignment: Image.AlignTop
+            verticalAlignment: Image.AlignCenter
             anchors.fill: parent
 
             Text {
                 anchors.centerIn: parent
-                anchors.verticalCenterOffset: 165
+                anchors.verticalCenterOffset: 25
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
-                color: 'white'
+                color: 'red'
+                text: qsTr("<b>A work in progress<br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 35
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width * 0.02
+                color: 'green'
+                text: qsTr("<p><b>Coopertronic OS is currently only for testing purposes and will be in development for quite some time. There are many things to sort out and learn before it will be anywhere near ready for a public release.<b/><p/><p><b>At the moment it is usable and installable for my own use. Anyone who has managed to get hold of a copy should be aware that Coopertronic OS has only been tested on a small number of machines.<b/><p/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+
+        }
+
+    }
+
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        background: null
+
+        Image {
+            id: background4
+
+            source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
+            width: parent.width
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignCenter
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 25
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width * 0.02
+                color: 'red'
                 text: qsTr("<b>Thank you for trying Coopertronic-OS<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
