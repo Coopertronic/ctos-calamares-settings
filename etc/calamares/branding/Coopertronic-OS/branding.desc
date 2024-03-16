@@ -11,11 +11,11 @@ welcomeStyleCalamares:   false
 
 welcomeExpandingLogo:   true
 
-windowExpanding:    normal
+windowExpanding:    fullscreen
 
-windowSize: 800px,520px
+#windowSize: 800px,520px
 
-windowPlacement: top
+#windowPlacement: top
 
 sidebar: widget
 
@@ -24,24 +24,26 @@ navigation: widget
 strings:
     productName:         "Coopertronic OS"   #"@{NAME}"
     shortProductName:    ctos
-    version:             v0.076-2024-03-16
-    shortVersion:        v0.076
-    versionedName:       Coopertronic-OS_v0.076
-    shortVersionedName:  ctos_v0.076
-    bootloaderEntryName: Coopertronic-OS_v0.076
+    version:             v0.077-2024-03-16
+    shortVersion:        v0.077
+    versionedName:       Coopertronic-OS_v0.077
+    shortVersionedName:  ctos_v0.077
+    bootloaderEntryName: Coopertronic-OS_v0.077
     productUrl:          https://github.com/Coopertronic/Coopertronic-OS
 
 images:
     productIcon:         "dragon-circle.white.coopertronic.3D-icon.2021.square.png"
     productLogo:         "dragon-circle.white.green.coopertronic.3D-icon.2021.square.png"
-    productWallpaper:    "wallpaper.png"
+    productWallpaper:    "BGcoopertronicBlue.1024.BG.Calamares.png"
     productWelcome:      "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
 
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+    SidebarBackground:    "#353945"
+    SidebarText:          "#ECEDEE"
+#   sidebarBackground:    "#292F34"
+#   sidebarText:          "#FFFFFF"
+#   sidebarTextSelect:    "#292F34"
+#   sidebarTextHighlight: "#D35400"
 
 slideshow:               "show.qml"
 
