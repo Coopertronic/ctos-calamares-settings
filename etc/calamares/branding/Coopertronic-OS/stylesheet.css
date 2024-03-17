@@ -29,7 +29,9 @@ Use gammaray
 
 /* ########## MAIN APPLICATION WINDOW ########## */
 
-#mainApp {}
+#mainApp {
+	color: whitesmoke;
+}
 
 #sidebarApp {
 	width: 250px;

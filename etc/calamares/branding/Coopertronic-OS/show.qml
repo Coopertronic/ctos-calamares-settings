@@ -63,8 +63,6 @@ Presentation {
         Image {
             id: background1
 
-            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
-            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -77,7 +75,7 @@ Presentation {
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
                 color: 'red'
-                text: qsTr("<b>Welcome to Coopertronic-OS, The home of Happy Computers<br/>")
+                text: qsTr("<b>Welcome to Coopertronic-OS, The home of Happy Computers<b/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -86,13 +84,13 @@ Presentation {
             Text {
                 anchors.centerIn: parent
                 anchors.verticalCenterOffset: 35
-                anchors.horizontalCenterOffset: 0
+                anchors.horizontalCenterOffset: -40
                 font.pixelSize: parent.width * 0.02
                 color: 'green'
                 text: qsTr("<p><b>You are now installing Coopertronic-OS. The system has been built so that I can explore how Operating Systems are made and to have an installable system taht I can put on all my machines, personal or work related.<b/><p/><p><b>I have included packages that I use all the time. At the moment this ISO is purely for my own use and should only be used at your own risk. I accept absolutely no responsibility for any damage or loss that may result from using this ISO.<b/><p/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
+                horizontalAlignment: Text.AlignHLeft
             }
 
         }
@@ -108,8 +106,6 @@ Presentation {
         Image {
             id: background2
 
-            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
-            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -122,7 +118,7 @@ Presentation {
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
                 color: 'red'
-                text: qsTr("<b>Coopertronic-OS uses the KDE desktop<br/>")
+                text: qsTr("<b>Coopertronic-OS uses the KDE desktop<b/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -131,13 +127,13 @@ Presentation {
             Text {
                 anchors.centerIn: parent
                 anchors.verticalCenterOffset: 35
-                anchors.horizontalCenterOffset: 0
+                anchors.horizontalCenterOffset: -40
                 font.pixelSize: parent.width * 0.02
                 color: 'green'
                 text: qsTr("<p><b>Coopertronic OS uses the KDE Plasma desktop because it is lightweight, highly customisable and easy to use.<b/><p/><p><b>At the moment I am not using any GUI package manager because I can't get Discover to see my side repo and I am still experimenting with builds of Pamac. The CLI pacman should be all that is needed at this point.<b/><p/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
+                horizontalAlignment: Text.AlignHLeft
             }
 
         }
@@ -153,8 +149,6 @@ Presentation {
         Image {
             id: background3
 
-            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
-            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -167,7 +161,7 @@ Presentation {
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
                 color: 'red'
-                text: qsTr("<b>A work in progress<br/>")
+                text: qsTr("<b>A work in progress<b/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -176,13 +170,13 @@ Presentation {
             Text {
                 anchors.centerIn: parent
                 anchors.verticalCenterOffset: 35
-                anchors.horizontalCenterOffset: 0
+                anchors.horizontalCenterOffset: -40
                 font.pixelSize: parent.width * 0.02
                 color: 'green'
                 text: qsTr("<p><b>Coopertronic OS is currently only for testing purposes and will be in development for quite some time. There are many things to sort out and learn before it will be anywhere near ready for a public release.<b/><p/><p><b>At the moment it is usable and installable for my own use. Anyone who has managed to get hold of a copy should be aware that Coopertronic OS has only been tested on a small number of machines.<b/><p/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
+                horizontalAlignment: Text.AlignHLeft
             }
 
         }
@@ -198,8 +192,6 @@ Presentation {
         Image {
             id: background4
 
-            flags: Qt.WA_TranslucentBackground | Qt.FramelessWindowHint
-            color: "#00000000"
             source: "dragon-circle.black.red.coopertronic.3D-icon.2021.png"
             width: parent.width
             horizontalAlignment: Image.AlignCenter
@@ -212,7 +204,7 @@ Presentation {
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width * 0.02
                 color: 'red'
-                text: qsTr("<b>Thank you for trying Coopertronic-OS<br/>")
+                text: qsTr("<b>Thank you for trying Coopertronic-OS<b/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
