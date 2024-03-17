@@ -30,11 +30,13 @@ Use gammaray
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
-	color: whitesmoke;
+	color: whitesmoke !important;
+	background-color: transparent;
 }
 
 #sidebarApp {
 	width: 250px;
+	background-color: transparent;
 }
 
 #mainText {
