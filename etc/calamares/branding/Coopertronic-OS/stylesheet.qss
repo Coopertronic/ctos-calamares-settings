@@ -30,12 +30,14 @@ Use gammaray
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
+	color: rgb(190, 29, 29) !important;
 	background-color: transparent;
 }
 
 #sidebarApp {
 	width: 250px;
 	background-color: transparent;
+	color: #00ff22;
 }
 
 #mainText {
@@ -45,19 +47,10 @@ Use gammaray
 
 #sidebarMenuApp {
 	padding: 3px;
-	background-color: transparent;
-	color: #00ff22 !important;
+	background-color: #1f34708a;
 }
 
-#qt_scrollarea_hcontainer {
-	background-color: transparent;
-}
-
-#qt_scrollarea_vcontainer {
-	background-color: transparent;
-}
-
-#slideshow {
+Slide {
 	background-color: transparent;
 }
 
@@ -148,9 +141,9 @@ QListView::item: !alternate:selected:active {
 QListView::item:selected:active {
 	background: #061864;
 	color: #00ff22;
-}s
+}
 
-QListView::item:selected: !active {
+s QListView::item:selected: !active {
 	background: #061864;
 	color: #00ff22;
 }

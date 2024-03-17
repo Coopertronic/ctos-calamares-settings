@@ -30,7 +30,7 @@ Use gammaray
 /* ########## MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
-	color: whitesmoke !important;
+	color: rgb(190, 29, 29) !important;
 	background-color: transparent;
 }
 
@@ -48,6 +48,10 @@ Use gammaray
 #sidebarMenuApp {
 	padding: 3px;
 	background-color: #1f34708a;
+}
+
+Slide {
+	background-color: transparent;
 }
 
 QLabel {
@@ -137,9 +141,9 @@ QListView::item: !alternate:selected:active {
 QListView::item:selected:active {
 	background: #061864;
 	color: #00ff22;
-}s
+}
 
-QListView::item:selected: !active {
+s QListView::item:selected: !active {
 	background: #061864;
 	color: #00ff22;
 }
