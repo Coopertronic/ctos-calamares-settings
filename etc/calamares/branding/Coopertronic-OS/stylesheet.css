@@ -47,6 +47,10 @@ Use gammaray
 	background-color: #1f34708a;
 }
 
+QLabel {
+	color: #119924;
+}
+
 QWidget {
 	font: 16px;
 }
