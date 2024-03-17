@@ -24,7 +24,7 @@ navigation: widget
 strings:
     productName:         "Coopertronic OS"   #"@{NAME}"
     shortProductName:    ctos
-    version:             v0.080-2024-03-16
+    version:             v0.081-2024-03-16
     shortVersion:        v0.080
     versionedName:       Coopertronic-OS_v0.080
     shortVersionedName:  ctos_v0.080
