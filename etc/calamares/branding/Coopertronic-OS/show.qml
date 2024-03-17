@@ -47,6 +47,9 @@ Presentation {
         console.log("QML Component (default slideshow) deactivated");
     }
 
+    color: "#00000000"
+    flags: Qt.FramelessWindowHint | Qt.WA_TranslucentBackground
+
     Timer {
         id: advanceTimer
 
@@ -59,6 +62,8 @@ Presentation {
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
+        color: "#00000000"
+        flags: Qt.FramelessWindowHint | Qt.WA_TranslucentBackground
 
         Image {
             id: background1

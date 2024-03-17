@@ -207,6 +207,7 @@ QLineEdit#textBoxRootPassword {
 
 #labelWhatIsYourName {
 	font: 16px;
+	color: #119924;
 }
 
 #textBoxFullName {
@@ -215,10 +216,12 @@ QLineEdit#textBoxRootPassword {
 
 #labelFullName {
 	font: 16px;
+	color: #119924;
 }
 
 #labelFullNameError {
 	font: 16px;
+	color: #119924;
 }
 
 #username_label_2 {
@@ -231,10 +234,12 @@ QLineEdit#textBoxRootPassword {
 
 #labelUsername {
 	font: 16px;
+	color: #119924;
 }
 
 #labelUsernameError {
 	font: 16px;
+	color: #991111;
 }
 
 #hostname_label_2 {
@@ -247,10 +252,12 @@ QLineEdit#textBoxRootPassword {
 
 #labelHostname {
 	font: 16px;
+	color: #119924;
 }
 
 #labelHostnameError {
 	font: 16px;
+	color: #119924;
 }
 
 #password_label_2 {
@@ -267,10 +274,12 @@ QLineEdit#textBoxRootPassword {
 
 #labelUserPassword {
 	font: 16px;
+	color: #119924;
 }
 
 #labelUserPasswordError {
 	font: 16px;
+	color: #119924;
 }
 
 #checkBoxRequireStrongPassword {
@@ -287,6 +296,7 @@ QLineEdit#textBoxRootPassword {
 
 #labelChooseRootPassword {
 	font: 16px;
+	color: #119924;
 }
 
 #textBoxRootPassword {
@@ -299,10 +309,12 @@ QLineEdit#textBoxRootPassword {
 
 #labelRootPassword {
 	font: 16px;
+	color: #119924;
 }
 
 #labelRootPasswordError {
 	font: 16px;
+	color: #991111;
 }
 
 /* ########## COMBO BOX ########## */
