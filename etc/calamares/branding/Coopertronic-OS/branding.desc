@@ -24,11 +24,11 @@ navigation: widget
 strings:
     productName:         "Coopertronic OS"   #"@{NAME}"
     shortProductName:    ctos
-    version:             v0.081-2024-03-16
-    shortVersion:        v0.082
-    versionedName:       Coopertronic-OS_v0.082
-    shortVersionedName:  ctos_v0.082
-    bootloaderEntryName: Coopertronic-OS_v0.082
+    version:             v0.083-2024-03-16
+    shortVersion:        v0.083
+    versionedName:       Coopertronic-OS_v0.083
+    shortVersionedName:  ctos_v0.083
+    bootloaderEntryName: Coopertronic-OS_v0.083
     productUrl:          https://github.com/Coopertronic/Coopertronic-OS
 
 images:
