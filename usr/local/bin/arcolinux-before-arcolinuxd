@@ -9,7 +9,6 @@ echo "#################################"
 echo
 pacman-key --init
 pacman-key --populate archlinux
-pacman-key --lsign 515A202B640F3678
 pacman-key --recv-keys 515A202B640F3678
 pacman-key --lsign 515A202B640F3678
 pacman-key --populate ctos
