@@ -24,11 +24,11 @@ navigation: widget
 strings:
     productName:         "Coopertronic OS"   #"@{NAME}"
     shortProductName:    ctos
-    version:             v0.099-KDE-6.1-2024-03-18
-    shortVersion:        v0.099-KDE-6.1
-    versionedName:       Coopertronic-OS_v0.099-KDE-6.1
-    shortVersionedName:  ctos_v0.099-KDE-6.1
-    bootloaderEntryName: Coopertronic-OS_v0.099-KDE-6.1
+    version:             v0.099KDE61-2024-03-18
+    shortVersion:        v0.099KDE61
+    versionedName:       Coopertronic-OS_v0.099KDE61
+    shortVersionedName:  ctos_v0.099KDE61
+    bootloaderEntryName: Coopertronic-OS_v0.099KDE61
     productUrl:          https://github.com/Coopertronic/Coopertronic-OS
 
 images:
